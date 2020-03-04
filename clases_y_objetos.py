@@ -55,48 +55,41 @@ class Naves():
     
 nave1=Naves()
 
-print("\n\n\n\n")
+#Comandos (llamadas) al objeto.
 
+#Enciende nave.
+nave1.encender()
 
+#Comprueba estado de los motores.
+print(nave1.estado_motores())
 
+#Apaga nave.
+nave1.apagar()
 
+#Comprueba estado de los motores.
 
+print(nave1.estado_motores())
 
+#Abre la compuerta.
+nave1.abrir_compuerta()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#Comprueba el estado de la compuerta.
 print(nave1.estado_compuerta())
 
+#Cierra compuerta.
+nave1.cerrar_compuerta()
 
+#Comprueba el estado de la compuerta.
+print(nave1.estado_compuerta())
 
+#Comprueba el estado de la defensas.
+print(nave1.estado_defensa())
 
+#Desactiva las defensas.
+nave1.desactivar_defensas()
 
+#Comprueba el estado de la defensas.
+print(nave1.estado_defensa())
 
-
-
-
-
-
-print("\n\n\n\n")
+#Ejecuta la autodestrucción de la nave.
+nave1.activar_autodestrucion()
